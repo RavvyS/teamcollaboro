@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Management UI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Invoice Management</h1>
+    <p class="subtitle">Simple frontend for API testing</p>
+
+    <section class="card">
+      <h2>Register</h2>
+      <form id="registerForm">
+        <input name="name" placeholder="Name" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <input name="password" type="password" placeholder="Password" required>
+        <select name="role" required>
+          <option value="User">User</option>
+          <option value="Admin">Admin</option>
+        </select>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input name="email" type="email" placeholder="Email" required>
+        <input name="password" type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+      <p id="authInfo"></p>
+    </section>
+
+    <section class="card">
+      <h2>Create / Update Invoice</h2>
+      <form id="invoiceForm">
+        <input name="invoiceId" type="number" placeholder="Invoice ID (for update only)">
+        <input name="invoiceNumber" placeholder="Invoice Number" required>
+        <input name="customerName" placeholder="Customer Name" required>
+        <input name="amount" type="number" step="0.01" placeholder="Amount" required>
+        <select name="status" required>
+          <option value="Draft">Draft</option>
+          <option value="Paid">Paid</option>
+          <option value="Cancelled">Cancelled</option>
+        </select>
+        <div class="row">
+          <button type="button" id="createBtn">Create</button>
+          <button type="button" id="updateBtn">Update</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Invoices</h2>
+      <div class="row">
+        <button id="loadInvoicesBtn">Load All</button>
+        <input id="invoiceByIdInput" type="number" placeholder="Invoice ID">
+        <button id="loadInvoiceBtn">Get By ID</button>
+        <button id="deleteInvoiceBtn">Delete By ID (Admin)</button>
+      </div>
+      <pre id="output"></pre>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
