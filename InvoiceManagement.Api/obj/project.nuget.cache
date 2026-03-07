@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v96E9inibyI=",
+  "dgSpecHash": "RVuyWZEtRpI=",
   "success": true,
   "projectFilePath": "/Users/ravindusandun/Desktop/InvoiceM/InvoiceManagement.Api/InvoiceManagement.Api.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "/Users/ravindusandun/.nuget/packages/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/microsoft.data.sqlclient/6.1.4/microsoft.data.sqlclient.6.1.4.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/microsoft.data.sqlclient.sni.runtime/6.0.2/microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg.sha512",
-    "/Users/ravindusandun/.nuget/packages/microsoft.extensions.apidescription.server/8.0.0/microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
+    "/Users/ravindusandun/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/microsoft.extensions.caching.memory/8.0.1/microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
@@ -27,12 +27,12 @@
     "/Users/ravindusandun/.nuget/packages/microsoft.identitymodel.protocols/7.7.1/microsoft.identitymodel.protocols.7.7.1.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.7.1/microsoft.identitymodel.protocols.openidconnect.7.7.1.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/microsoft.identitymodel.tokens/7.7.1/microsoft.identitymodel.tokens.7.7.1.nupkg.sha512",
-    "/Users/ravindusandun/.nuget/packages/microsoft.openapi/2.4.1/microsoft.openapi.2.4.1.nupkg.sha512",
+    "/Users/ravindusandun/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
-    "/Users/ravindusandun/.nuget/packages/swashbuckle.aspnetcore/10.1.4/swashbuckle.aspnetcore.10.1.4.nupkg.sha512",
-    "/Users/ravindusandun/.nuget/packages/swashbuckle.aspnetcore.swagger/10.1.4/swashbuckle.aspnetcore.swagger.10.1.4.nupkg.sha512",
-    "/Users/ravindusandun/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.1.4/swashbuckle.aspnetcore.swaggergen.10.1.4.nupkg.sha512",
-    "/Users/ravindusandun/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.1.4/swashbuckle.aspnetcore.swaggerui.10.1.4.nupkg.sha512",
+    "/Users/ravindusandun/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "/Users/ravindusandun/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "/Users/ravindusandun/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "/Users/ravindusandun/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/system.clientmodel/1.8.0/system.clientmodel.1.8.0.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/system.configuration.configurationmanager/8.0.1/system.configuration.configurationmanager.8.0.1.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/system.diagnostics.diagnosticsource/8.0.1/system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
@@ -41,11 +41,10 @@
     "/Users/ravindusandun/.nuget/packages/system.memory.data/8.0.1/system.memory.data.8.0.1.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/system.security.cryptography.pkcs/8.0.1/system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/system.security.cryptography.protecteddata/8.0.0/system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
-    "/Users/ravindusandun/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
-    "/Users/ravindusandun/.nuget/packages/microsoft.netcore.app.ref/8.0.19/microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
     "/Users/ravindusandun/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.19/microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512",
-    "/Users/ravindusandun/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.19/microsoft.netcore.app.host.osx-arm64.8.0.19.nupkg.sha512"
+    "/Users/ravindusandun/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.19/microsoft.netcore.app.host.osx-arm64.8.0.19.nupkg.sha512",
+    "/Users/ravindusandun/.nuget/packages/microsoft.netcore.app.ref/8.0.19/microsoft.netcore.app.ref.8.0.19.nupkg.sha512"
   ],
   "logs": []
 }
