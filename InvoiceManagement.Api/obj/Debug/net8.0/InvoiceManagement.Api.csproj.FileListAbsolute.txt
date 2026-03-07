@@ -80,3 +80,4 @@
 /Users/ravindusandun/Desktop/InvoiceM/InvoiceManagement.Api/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
 /Users/ravindusandun/Desktop/InvoiceM/InvoiceManagement.Api/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
 /Users/ravindusandun/Desktop/InvoiceM/InvoiceManagement.Api/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+/Users/ravindusandun/Desktop/InvoiceM/InvoiceManagement.Api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
