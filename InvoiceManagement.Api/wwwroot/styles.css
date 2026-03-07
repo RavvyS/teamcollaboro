@@ -1,0 +1,59 @@
+:root {
+  --bg: #f3f6fb;
+  --card: #ffffff;
+  --text: #1a1a1a;
+  --accent: #0057b8;
+  --border: #d8dee8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #edf2ff, #f9fbff);
+  color: var(--text);
+}
+
+.container {
+  max-width: 980px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+.subtitle { color: #4f5d75; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+form { display: grid; gap: 10px; }
+
+input, select, button {
+  padding: 10px;
+  border: 1px solid #c8d1de;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+pre {
+  background: #111827;
+  color: #d1fae5;
+  border-radius: 8px;
+  padding: 12px;
+  min-height: 100px;
+  overflow: auto;
+}
