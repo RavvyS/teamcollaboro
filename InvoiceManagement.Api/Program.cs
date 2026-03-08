@@ -1,4 +1,5 @@
 using System.Text;
+using InvoiceManagement.Api.Middlewares;
 using InvoiceManagement.Api.Infrastructure;
 using InvoiceManagement.Api.Repositories;
 using InvoiceManagement.Api.Repositories.Interfaces;
@@ -89,6 +90,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseAuthentication();
 app.UseAuthorization();
